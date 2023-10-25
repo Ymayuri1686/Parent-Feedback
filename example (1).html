@@ -1,0 +1,290 @@
+<html>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+html {
+  font-family: Arial;
+  font-size: 30px;
+  background: #5e42a6;
+}
+
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #312450;
+  font-size: 18px;
+color:white;
+margin-left:0px;
+}
+
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 20%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  
+  li {
+    position: relative;
+    margin: 3.2em 0;
+    
+    a {
+      line-height: 5em;
+      font-size: 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.4em;
+      color: rgba(#FFF, 0.35);
+      display: block;
+      transition: all ease-out 300ms;
+    }
+    
+    &.active a {
+      color:rgb(223, 128, 255) ;
+font-size: 30px;
+    }
+    
+    &:not(.active)::after {
+      opacity: 0.2;
+    }
+    
+    &:not(.active):hover a {
+      color:rgb(223, 128, 255);
+    }
+    
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 0.2em;
+      background: black;
+      left: 0;
+      bottom: 0;
+      background-image: linear-gradient(to right, #5e42a6, #b74e91);
+    }
+  }
+}
+  b:hover{
+background-color:rgba(223, 128, 255,2);
+
+}
+
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+ 
+    
+    img {
+      width: 100%;
+      height: 100%
+
+
+  border: 5px solid #555;
+
+
+  }
+  p {
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: rgb(223, 128, 255) ;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 20px;
+  width: 50%;
+}
+}
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+html {
+  font-size: 10%;
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #272727;
+  color: rgb(223, 128, 255);
+
+}
+
+.display-date {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: .7rem;
+  font-weight: 50;
+}
+
+.display-time {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid rgb(223, 128, 255);
+  padding: 5px 90px;
+  border-radius: 5px;
+MARGIN-LEFT:20PX;
+MARGIN-RIGHT:20PX;
+  transition: ease-in-out 0.1s;
+  transition-property: background, box-shadow, color;
+  -webkit-box-reflect: below 2px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.5));
+}
+
+.display-time:hover {
+  background: rgb(225, 122, 251);
+  box-shadow: 0 0 30px#ffd868;
+  color: #272727;
+  cursor: pointer;
+}
+.KALIEDOSCOPE:hover{
+color:black;
+}
+</style>
+<body>
+<div><a href="https://sanskritischoolpune.org/" target="_blank">
+<h2 style="color:orange;TEXT-ALIGN:CENTER;font-weight: bold;">WELCOME TO SANSKRITI SCHOOL,BHUKUM</h2></a>
+    <marquee ><a href="#" target="_self"><B class="KALIEDOSCOPE"> KALIEDOSCOPE</B></a></marquee>
+<a href="#" target="popup"  onclick="window.open('C:/Users/Administrator/Downloads/FEEDBACKFORM.HTML','popup','width=8000,height=6000' ); return false;">   
+ <marquee direction="right"
+             behavior="alternate"
+             style="border:BLACK 2px SOLID"><B>
+        SHARE YOUR FEEDBACK</B>
+    </marquee>
+</a>
+</div>
+<main class="main">
+  <aside class="sidebar">
+<div >
+<a href="https://sanskritischoolpune.org/" target="_blank">
+<img src="https://drive.google.com/file/d/1wdOF4e8dV_U6eqfrQM4V8cVWFuFvVBvs/view?usp=drive_link" class="center" style="border:5px double green;" />
+</img>
+</a>
+</div> 
+<br>
+      
+         <div class="containr">
+      <div class="display-date">
+        <span id="day">day</span>,
+        <span id="daynum">00</span>
+        <span id="month">month</span>
+        <span id="year">0000</span>
+      </div>
+      <div class="display-time"></div>
+    </div></span></p>
+    <nav class="nav">
+      <ul style="margin-top: -60px;padding: 0;">
+        <li ><a href="#" target="popup"  onclick="window.open('C:/Users/Administrator/Downloads/FEEDBACKFORM.HTML','popup','width=8000,height=6000' ); return false;" class="w3-bar-item w3-button"><b>Parent Feedback Form</b></a></li>
+        <li><a href="https://sanskritischoolpune.org/" target="_blank"  onclick="window.open('https://sanskritischoolpune.org/'); return false;" class="w3-bar-item w3-button">Who We Are</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <section >
+   <div class="w3-content w3-section" style="max-width:100;margin-left:350px;">
+<a href="https://sanskritischoolpune.org/" target="_blank">
+  <img class="https://drive.google.com/file/d/1X1XGgG1wkVOevcOSB09usIazDKzIB5BR/view?usp=drive_link" style="width:1000px; height:520px;">
+  <img class="mySlides w3-animate-right" src="C:\Users\Administrator\Downloads\IMG_6349.JPG" style="width:1000px; height:520px;">
+  <img class="mySlides w3-animate-right" src="C:\Users\Administrator\Downloads\IMG_4333.JPG" style="width:1000px; height:520px;">
+  <img class="mySlides w3-animate-right" src="C:\Users\Administrator\Downloads\IMG_5390.JPG" style="width:1000px;height:520px;">
+  <img class="mySlides w3-animate-right" src="C:\Users\Administrator\Downloads\DSC_0609.JPG" style="width:1000px; height:520px;">
+ <img class="mySlides w3-animate-right" src="C:\Users\Administrator\Downloads\15th Aug groups on stage _7.JPG" style="width:1000px; height:520px;">
+ <img class="mySlides w3-animate-right" src="C:\Users\Administrator\Downloads\IMG_6418.JPG" style="width:1000px; height:520px;"></a> 
+</div>
+  </section>
+</main>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+const displayTime = document.querySelector(".display-time");
+// Time
+function showTime() {
+  let time = new Date();
+  displayTime.innerText = time.toLocaleTimeString("en-US", { hour12: false });
+  setTimeout(showTime, 1000);
+}
+
+showTime();
+
+// Date
+function updateDate() {
+  let today = new Date();
+
+  // return number
+  let dayName = today.getDay(),
+    dayNum = today.getDate(),
+    month = today.getMonth(),
+    year = today.getFullYear();
+
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const dayWeek = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  // value -> ID of the html element
+  const IDCollection = ["day", "daynum", "month", "year"];
+  // return value array with number as a index
+  const val = [dayWeek[dayName], dayNum, months[month], year];
+  for (let i = 0; i < IDCollection.length; i++) {
+    document.getElementById(IDCollection[i]).firstChild.nodeValue = val[i];
+  }
+}
+
+updateDate();
+
+</script>
+</body>
+</html>
